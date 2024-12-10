@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/general.css"></link>
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="./src/conversion.js"></script>
+  <title>Compound Intreset</title>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <h1>Compound Intrest</h1>
+      <div class="compound-intrest-inputs">
+        <!-- Principal Amount -->
+        <img src="./Icons/indian.png" alt="" class="rupee">
+        <label for="">Principal Amount</label>
+        <input type="number" class="input-box input-js input" id="input-amount">
+
+        <!-- Intrest calculation -->
+        <label for="">Intrest Rate ( % )</label>
+        <input type="number" class="input-box" id="input-intrest">
+
+        <!-- Tenure calculation -->
+        <label for=""> Tenure in years</label>
+        <input type="number" class="input-box" id="input-tenure">
+        <p class="error error1"></p>
+        <p class="principal-output"></p>
+        <p class="intrest-output"></p>
+      </div>
+
+      <div class="buttons">
+        <button class="total">Calculate</button>
+        <button class="clear">Reset</button>
+      </div>
+
+    </div>
+  </main>
+</body>
+</html>

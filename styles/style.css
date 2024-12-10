@@ -1,0 +1,70 @@
+.container{
+  max-width: 420px;
+}
+.compound-intrest-inputs{
+  padding: 1em;
+}
+.rupee{
+  position: relative;
+  height: 15px;
+  top: 81px;
+  left: 3%;
+}
+label{
+  display: flex;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  font-size: 18px;
+  font-weight: 500;
+}
+.input-box{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  padding: 0.8em 1.5em;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+}
+input[type=number]::-webkit-inner-spin-button,::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+}
+p{
+  
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  margin-top: 0.5em;
+  font-weight: 500;
+}
+.results{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+.total ,.clear{
+  padding: 1em 1em;
+  margin-left: 1em;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.20s;
+  cursor: pointer;
+}
+.total{
+  background-color: rgba(0, 128, 0, 0.797);
+  color: white;
+}
+.total:active{
+  background-color: green;
+}
+.clear{
+  background-color: rgba(255, 0, 0, 0.803);
+  color: white;
+}
+.clear:active{
+  background-color: red;
+}
